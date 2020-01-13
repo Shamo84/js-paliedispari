@@ -1,11 +1,11 @@
 var segno;
 var numUtente;
 do {
-segno = prompt("pari o dispari?");
+  segno = prompt("pari o dispari?");
 } while (segno != "pari" && segno != "dispari");
 
 do {
-numUtente = parseInt(prompt("inserisci un numero tra 1 e 5"));
+  numUtente = parseInt(prompt("inserisci un numero tra 1 e 5"));
 } while (numUtente < 1 || numUtente > 5);
 
 
